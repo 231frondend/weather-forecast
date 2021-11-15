@@ -1,0 +1,106 @@
+body{
+    background-color: #585772;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+.container{
+    display: flex;
+}
+
+
+/* 地圖 */
+svg{
+    width: 50%;
+    height: 100vh;
+}
+path{
+    stroke: #ECEDE8;
+    fill:transparent;
+    transition: 0.5s;
+    cursor:pointer;
+}
+path:hover{
+    fill:#EDC9C0;
+    transform: translate(-10px, -10px);
+}
+
+.weathercard{
+    width: 50%;
+    height: 100vh;
+}
+
+/* 大標題 */
+h1{
+    font-family: 'Bree Serif',serif;
+    color: #ECEDE8;
+    text-align: center;
+    padding-top: 5%;
+    margin-bottom: 50px;
+
+}
+
+/* 天氣卡 */
+
+#card{
+    width: 400px;
+    height: 450px;
+
+    padding: 10px;
+
+    
+    border-radius: 15px;
+    background-color: #ECEDE8;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.img{
+    width: 100%;
+    height: 200px;
+    
+    background-image: url(./2.0img/天氣/1x/太陽.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    border-radius: 15px;
+
+}
+
+.info{
+    width: 100%;
+    height: 150px;
+
+    display: flex;
+
+}
+
+.info p{
+    width:50%;
+    font-size:30px;
+    font-weight: bolder;
+}
+
+.info h2{
+    font-size:50px;
+    color: #d38c97;
+}
+
+
+.info-2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.weatherReport{
+    font-weight: bolder;
+    margin-left: 30px;
+    font-size: 25px;
+    color:#585772;
+}
+
+
